@@ -4,6 +4,6 @@
 
     public interface ISalesPromotionRepository
     {
-        List<SalesPromotion> FindAll(List<Item> inputItems, int[] countItems);
+        List<SalesPromotion> FindAll();
     }
 }

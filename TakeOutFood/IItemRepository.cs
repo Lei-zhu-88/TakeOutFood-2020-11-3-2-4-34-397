@@ -4,6 +4,6 @@
 
     public interface IItemRepository
     {
-        List<Item> FindAll(List<string> inputs);
+        List<Item> FindAll();
     }
 }
