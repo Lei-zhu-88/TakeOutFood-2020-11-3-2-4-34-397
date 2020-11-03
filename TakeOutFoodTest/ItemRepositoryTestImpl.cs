@@ -5,7 +5,7 @@ namespace TakeOutFoodTest
 {
     public class ItemRepositoryTestImpl : IItemRepository
     {
-        public List<Item> FindAll()
+        public List<Item> FindAll(List<string> inputs)
         {
             return TestData.ALL_ITEMS;
         }
